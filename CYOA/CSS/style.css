@@ -1,17 +1,19 @@
 
 	body {
-		background-color: #17CF5D;
+		background-color: whitesmoke;
 	}
 
 	h1 {
 		color: black;
 		font-size: 65px;
+		text-shadow: 0 0 8px #A18AB2, 0 0 15px rgba(245, 245, 245, 0.6);
+
 
 	}
 
 	.glow-smoke-text {
 			color: black;
-			text-shadow: 0 0 8px whitesmoke, 0 0 15px rgba(245, 245, 245, 0.6);
+			text-shadow: 0 0 8px #A18AB2, 0 0 15px rgba(245, 245, 245, 0.6);
 	}
 
 	.img {
@@ -20,14 +22,14 @@
 
 	}
 	.button {
-		background-color: #FF0933;
+		background-color: #EDDDFF;
 			border: 2px black;
 	  	color: black;
 	  	padding: 15px 32px;
   		text-align: center;
 	  	text-decoration: none;
 	  	display: inline-block;
-	  	font-size: 25px;
+	  	font-size: 20px;
 	  	cursor: pointer;
 	  	border-style: groove;
 	  	border-radius: 5px;
@@ -35,14 +37,13 @@
 	}
 
 	.backbutton {
-		background-color: black;
+		background-color: #F89FCA;
 			border: 2px whitesmoke;
-	  	color: whitesmoke;
 	  	padding: 15px 32px;
   		text-align: center;
 	  	text-decoration: none;
 	  	display: inline-block;
-	  	font-size: 25px;
+	  	font-size: 20px;
 	  	cursor: pointer;
 	  	border-style: groove;
 	  	border-radius: 5px;
@@ -68,7 +69,7 @@
 		color: black;
 		padding: 15px 30px;
 		background-color: whitesmoke;
-		border: 2px solid white;
+		border: 2px none;
 		display: inline-block;
 		border-radius: 5px;
 	}
